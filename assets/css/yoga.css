@@ -348,7 +348,7 @@ html, body        {height: 100%;}
     .xs-btn              {margin-bottom: 10px;}
     .banner-section      {overflow: hidden;}
     .top-banner          {height: 300px; margin: 0;}
-    .service-section     {overflow: auto;}
+    /* .service-section     {overflow: auto;} */
     .banner-text         {padding: 30px 20px; text-align: center;}
     .banner-text h1      {font-size: 44px;}
     .service-img         {height: 300px; margin: 20px 0px;}
