@@ -19,13 +19,13 @@ html, body        {height: 100%;}
 .brandmd-logo     {position: relative;top: -42px; width: 200px; text-align: center; background: #ff6a6c;}
 .brandmd-logo img {height: 95px;}
 
-.banner-section  {height: 600px; background: url(/assets/img/background-bg1.jpg); background-size: cover; background-repeat: no-repeat; overflow: hidden;}
+ .banner-section  {height: 600px; background: url(../img/background-bg1.jpg); /* background: url(/assets/img/background-bg1.jpg);*/ background-size: cover; background-repeat: no-repeat; overflow: hidden;} 
 .top-banner       {margin: 100px 0px 0px 0px;}
 .banner-text h1    {font-size: 53px; font-weight: 100;}
 .banner-text h3    {color: #ff6a6c;}
 .banner-btn        {background: #595b92 !important;}
 
-.service-section  {height: 700px; background: url(/assets/img/circle-bg.jpg); background-size: cover; background-repeat: no-repeat; overflow: hidden;}
+.service-section  {height: 700px; background: url(../img/circle-bg.jpg); background-size: cover; background-repeat: no-repeat; overflow: hidden;}
 .center-cont p     {font-size: 14px;}
 .service-icon     {display: flex; padding: 15px; border-radius: 100%; box-shadow: 0px 3px 6px #9a9a9a; color: #ffffff; margin: 0px 20px;}
 .icon-bg1          {background: #e68b70;}
@@ -38,8 +38,8 @@ html, body        {height: 100%;}
 .service-leftcol, 
 .service-rightcol   {display: flex; flex-direction: column; justify-content: space-around; height: 100%;}
 
-.our-courses         {background: url(/assets/img/background-bg2.png); background-size: cover; background-repeat: no-repeat;    padding-top: 90px;    padding-bottom: 45px;}
-.titel-name          { height: 620px;background: url(/assets/img/small-logo1.png); background-size: 100px; background-repeat: no-repeat; background-position: 50% -4px; padding-top: 20px;}
+.our-courses         {background: url(../img/background-bg2.png); background-size: cover; background-repeat: no-repeat;    padding-top: 90px;    padding-bottom: 45px;}
+.titel-name          { height: 620px;background: url(../img/small-logo1.png); background-size: 100px; background-repeat: no-repeat; background-position: 50% -4px; padding-top: 20px;}
 .titel-name h2 span:nth-child(1) {color: #5154a3;}
 .titel-name h2 span:nth-child(2) {color:#ff6a6c;}
 
@@ -112,7 +112,7 @@ html, body        {height: 100%;}
 
 
 
-.package-section                     {height: 800px;background: url(/assets/img/bg-4.png); background-size: cover; background-repeat: no-repeat; }
+.package-section                     {height: 800px;background: url(../img/bg-4.png); background-size: cover; background-repeat: no-repeat; }
 .package-title                       {padding: 100px 0px;}
 .package-content                     {padding: 0px 90px;}
 .package-value                       {width: 120px; height: 120px;  border-radius: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center; position: absolute; top: 80px; left: 90px; background: #ffffff; border: 6px solid #ff6a6c;}
@@ -126,7 +126,7 @@ html, body        {height: 100%;}
 .package-value2  h4                  {color: #5a5f97;}
 
 .event-section        {padding-top: 90px;}
-.signup-section       {padding: 20px; height: 140px; background: url(/assets/img/bg-5.png); background-size: cover; background-repeat: no-repeat;}
+.signup-section       {padding: 20px; height: 140px; background: url(../img/bg-5.png); background-size: cover; background-repeat: no-repeat;}
 .signup-left          {justify-content: end; display: flex;}
 .search-box  input    { background: #ffffff17 !important; border-width: 1px 0px 1px 1px; color: #ffffff !important;}  
 .search-box  span     { background: #ffffff17 !important; border-width: 1px 1px 1px 0px;} 
@@ -149,7 +149,7 @@ html, body        {height: 100%;}
 .tran-contant          {padding: 0px 100px;}
 /* .tr-foot > small         {font-size: 15px !important;} */
 .trainer-body h5       {font-size: 15px;}
-.testmon-section       {height: 468px;background: url(/assets/img/bg-6.png); background-size: cover; background-repeat: no-repeat;}
+.testmon-section       {height: 468px;background: url(../img/bg-6.png); background-size: cover; background-repeat: no-repeat;}
 .testmon-content       {text-align: center;padding: 100px 0px;}
 .textmon img           {height: 100px;}
 
